@@ -10,10 +10,10 @@ public class ArithmeticOperationsTest {
 	@Test
 	public void testAdd()
 	{
-
-		ArithmeticOperations operations = new ArithmeticOperations();
+		
+		ArithmeticOperations operations =, new ArithmeticOperations(); // Added typos to fail test.
 		Integer actual = operations.addOrSub(2, 6);
-		Integer expected = 8;
+		Integer expected = 5; // Changed the expected value to fail test.
 		assertEquals(expected, actual);
 
 	}
